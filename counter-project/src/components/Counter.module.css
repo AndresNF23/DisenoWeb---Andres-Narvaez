@@ -1,0 +1,14 @@
+.container {
+  background-color: none;
+  box-shadow: 5px 5px 15px rgba(173, 66, 206, 0.7),
+    -5px -5px 15px rgba(173, 66, 206, 0.7);
+  padding: 2vw;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  font-size: larger;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 2rem auto;
+}

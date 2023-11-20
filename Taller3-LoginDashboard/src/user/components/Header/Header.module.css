@@ -1,0 +1,41 @@
+.Header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 2vh 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 9vh;
+    background-color: var(--MainOrange);
+    z-index: 1;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+    .Header h1{
+        margin: 0;
+    }
+
+    
+    .Logo{
+        width: 4vw;
+        cursor: pointer;
+    }
+    
+    .Menu{
+        display: flex;
+        gap: 1vw;
+    }
+    
+        .User{
+            display: flex;
+            cursor: pointer;
+        }
+
+        .User img{
+            width: 58px;
+            height: 58px;
+            border-radius: 50px;
+            margin-left: 20px;
+        }

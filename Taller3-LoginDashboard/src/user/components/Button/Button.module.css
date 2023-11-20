@@ -1,0 +1,19 @@
+.Btn{
+    width: 10vw;
+    height: 8vh;
+    border-radius: 9px;
+    background: var(--Tangerine);
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 0;
+
+    &:hover{
+        background-color: var(--MainRed);
+        scale: 0.93;
+    }
+}
